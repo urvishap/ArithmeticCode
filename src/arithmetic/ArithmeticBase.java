@@ -12,6 +12,7 @@ import java.util.Scanner;
  * change the code to use enum instead String and add object oriented principles satisfy as comment in the code
  * @author sivagamasrinivasan
  * date 02/19
+ * Modifier: Urvisha patel
  */
 public class ArithmeticBase 
 {
@@ -19,6 +20,7 @@ public class ArithmeticBase
     double calculate(double x, double y) 
         {
         Scanner sc =new Scanner(System.in);
+        String enum input = [];
         System.out.println("enter String");
         String s= sc.next();
         switch (s.toUpperCase()) 
